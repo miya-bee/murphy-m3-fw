@@ -1,0 +1,22 @@
+# Device data and potentially sensitive or large artifacts
+dumps/
+evidence/raw/
+analysis/raw/
+*.bin
+*.img
+*.elf
+*.uf2
+*.zip
+
+# Local tooling and caches
+.venv/
+.pio/
+.platformio/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# Local logs
+*.log
